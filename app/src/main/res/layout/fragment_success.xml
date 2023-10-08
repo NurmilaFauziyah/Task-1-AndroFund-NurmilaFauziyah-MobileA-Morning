@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1AC3A"
+    tools:context=".SuccessFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "✓"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:textSize="150sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="150dp"/>
+
+    <TextView
+        android:id="@+id/success"
+        android:text = "Task Complete!"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="You did a great job!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginStart="50dp"/>
+
+</FrameLayout>
